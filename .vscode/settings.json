@@ -1,0 +1,6 @@
+{
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.format.enable": false,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true
+  }
+  

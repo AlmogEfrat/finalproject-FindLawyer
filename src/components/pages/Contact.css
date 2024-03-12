@@ -1,0 +1,98 @@
+body .contact{
+    background-image: url('/public/bg\ law8.jpg'); 
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+  }
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-image: url('/public/bg\ law8.jpg');
+    background-size: cover;
+    
+    
+  }
+  
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top: -400px;
+    position: absolute;
+    right: 850px;
+    top: 80%;
+    transform: translateY(-50%);
+    color: #333;
+    
+}
+  
+.contact-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.contact p {
+    font-size: 24px;
+    color: #333;
+}
+  
+.contact ul {
+    font-size: 18px;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    justify-content: center;
+}
+  
+.contact li {
+    font-size: 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-flex; 
+    align-items: center; 
+    margin-right: 10px; /*הזזה של הכיתוב מהאייקונים */
+    
+}
+ 
+  
+.contact a:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.contact li > * + * {
+    margin-left: 5px;
+}
+
+
+.contact .icon {
+    background-color: #333;
+    border-radius: 3px;   
+    padding: 1px;
+}
+.contact a:hover {
+    /*font-size: 20px;  Update to the desired font size on hover */
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+  
